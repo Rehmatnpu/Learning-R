@@ -2,7 +2,7 @@
 
 # Day 1
 
-# Set working directory (replace "copy file path" with your actual path)
+# Set working directory
 setwd("C:/Users/pc/Desktop/Rstudio")
 
 # Load necessary libraries
@@ -12,7 +12,7 @@ library(caret)
 library(stringr)
 library(summarytools)
 
-# Reading a CSV file (replace "file path" with your actual file path)
+# Reading a CSV file
 my_data <- read.csv("C:/Users/pc/Desktop/Rstudio/iris.csv")
 
 # Day 2
@@ -30,7 +30,7 @@ head(iris)
 # Display the first 15 rows of 'iris'
 head(iris, 15)
 
-# Importing file (replace "directory" with your actual directory path)
+# Importing file
 mydata <- read.csv("C:/Users/pc/Desktop/Rstudio/iris.csv")
 
 # Remove NA values from the 'iris' dataset
@@ -88,7 +88,7 @@ by(iris, iris$variety, summary)
 
 # Day 4
 
-# Set a working directory (replace with your directory path)
+# Set a working directory
 setwd("C:/Users/pc/Desktop/Rstudio")
 
 # Install and load the 'pastecs' package
@@ -101,7 +101,7 @@ data(iris)
 # View the 'iris' dataset
 View(iris)
 
-# Read a CSV file (replace it with your actual file path)
+# Read a CSV file
 mydata <- read.csv("C:/Users/pc/Desktop/Rstudio/iris.csv")
 
 # Calculate statistics of 'iris' dataset
