@@ -1,7 +1,8 @@
 # Learning-R
 R programming from basic to advanced practice session
-getwd()
+
 #ND 1
+getwd()
 library("tidyverse")
 install.packages("data.table")
 library("data.table")
